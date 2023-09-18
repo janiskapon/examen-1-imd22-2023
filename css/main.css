@@ -23,6 +23,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  margin: auto;
+  font-family: "Noto Serif", serif;
+  font-family: "Nunito Sans", sans-serif;
+  width: 428px;
+  height: 3236px;
+  background: #fff;
 }
 
 a {
@@ -34,4 +40,204 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+}
+
+header {
+  width: 428px;
+  height: 148px;
+  flex-shrink: 0;
+  background: #d7a1fd;
+  padding-top: 40px;
+}
+
+h1 {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px; /* 100% */
+  text-transform: uppercase;
+}
+
+h2 {
+  width: 388px;
+  color: #000;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 50px; /* 100% */
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px; /* 120% */
+  text-transform: uppercase;
+  margin: 20px 0 20px 0;
+}
+
+.prog {
+  color: #d7a1fd;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 15px; /* 100% */
+  text-transform: uppercase;
+  background: #000;
+  width: 234px;
+  height: 55px;
+  flex-shrink: 0;
+}
+
+.main-slogan {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 28px; /* 93.333% */
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  background: #98fb00;
+  margin-top: 15px;
+}
+
+.main-slogan-signature {
+  color: #000;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px; /* 100% */
+  text-transform: uppercase;
+  background: #98fb00;
+}
+
+.header-subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px; /* 120% */
+  text-transform: uppercase;
+}
+
+nav {
+  width: 428px;
+  height: 62px;
+  flex-shrink: 0;
+  background: #000;
+  color: #fff;
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px; /* 122.222% */
+}
+
+a {
+  text-transform: uppercase;
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+}
+
+.article-text {
+  color: #000;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px; /* 100% */
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+strong {
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 22px; /* 146.667% */
+  text-transform: uppercase;
+}
+
+.opportunities {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px; /* 100% */
+  letter-spacing: -2.5px;
+  text-transform: uppercase;
+  background: #d7a1fd;
+}
+
+.acid-green {
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 24px; /* 120% */
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  background: #98fb00;
+}
+
+footer {
+  background: #000;
+}
+
+.footer-title {
+  color: #313131;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px; /* 100% */
+  text-transform: uppercase;
+}
+
+.footer-bold {
+  color: #fff;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 22px; /* 122.222% */
+  text-transform: uppercase;
+}
+
+.footer-info {
+  color: #fff;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px; /* 122.222% */
 }
